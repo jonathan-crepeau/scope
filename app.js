@@ -51,4 +51,25 @@
 // console.log(myName);
 
 
-// SECTION
+// SECTION Exercise 4: Write a function, 'checkSquare', that will return 'true' if a number is a perfect square by checking if the square root is a whole number. Then, write a function, 'checkToLimit', that will loop up to an arbitrary limit brought in as a parameter (ex: 100), and log whether each number is a perfect square. Call upon the the 'checkSquare' function.
+
+// const checkSquare = (num) => {
+//   if (Math.sqrt(num) % 1 != 0) {
+//     return false;
+//   }
+//   return true;
+// }
+// console.log(checkSquare(16))
+// console.log(checkSquare(5.22))
+// console.log(checkSquare(12.22435));
+// console.log(checkSquare(81));
+
+// const checkToLimit = (limitNum) => {
+//   for (let i = 0; i <= limitNum; i++) {
+//     if (!checkSquare(i)) {
+//       console.log(i + ': Not a perfect square.');
+//     } else
+//     console.log(i + ': A PERFECT SQUARE!');
+//   }
+// }
+// console.log(checkToLimit(100));
