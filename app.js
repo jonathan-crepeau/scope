@@ -25,3 +25,30 @@
 // console.log(pasta);
 
 
+// SECTION Exercise 3: Write a for loop but use 'var' instead of 'let'.
+
+// Verify - is the variable accessible outside the loop after it has run?
+// NOTE: Yes, returns a value of 10 when you console.log the value of the 'i' variable after the for loop. Returns undefined if you try and log the value of 'i' before the for loop has run.
+
+// Verify: Is the variable accessible outside of the loop when you use var instead of let?
+// NOTE Yes.
+
+// Verify: Is the variable accessible outside of the loop with 'let'?
+// NOTE No.
+
+// Verify: What about a 'let'-declared variable defined within the block of the loop?
+// NOTE No.
+
+// for (var i = 0; i < 10; i++) {
+//   console.log('hello');
+// }
+// console.log(i);
+
+// for (let i = 0; i < 5; i++) {
+//   const myName = 'Jonathan'
+//   console.log(myName);
+// }
+// console.log(myName);
+
+
+// SECTION
